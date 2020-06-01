@@ -199,7 +199,7 @@ class ExposedRoutesExtractor implements ExposedRoutesExtractorInterface
             $patterns[] = '(' . $toExpose . ')';
         }
 
-        return implode($patterns, '|');
+        return implode('|', $patterns);
     }
 
     /**
